@@ -1,12 +1,51 @@
+* {
+}
 .App {
   text-align: center;
+  /* width: 50%; */
+  justify-content: center;
+  display: flex;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Listdata {
+  width: 40vw;
+  background-color: white;
+  margin-top: 2vh;
+  border-radius: 10px;
+  /* padding-bottom: 5px; */
 }
+.Listdata button {
+  width: 100%;
+  background-color: #282c34;
+  color: white;
+  border-radius: 10px;
+  height: 40px;
+}
+.list img {
+  width: 120px;
+  height: 100px;
+}
+.list {
+  width: 80%;
+  margin-bottom: 1%;
+  display: flex;
+  margin-left: 10%;
 
+  border: 1px solid tomato;
+  padding: 2px;
+  /* align-items: flex-start; */
+}
+.right {
+  margin-left: 2%;
+
+  /* align-items: flex-start; */
+  text-align: left;
+}
+.right h1,
+h2 {
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
